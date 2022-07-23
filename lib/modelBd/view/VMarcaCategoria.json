@@ -1,0 +1,3 @@
+{
+    "viewMarcaCategoria": "SELECT m.*, mc.\"CategoriaId\" FROM logistica.marca_categoria mc   inner join logistica.marca m on  mc.\"MarcaId\" = m.\"Id\" where mc.\"EstadoId\" = 1 and m.\"EstadoId\" = 1 and m.\"CodEstadoMarca\" = 1 "
+}

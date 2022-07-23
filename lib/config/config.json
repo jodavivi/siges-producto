@@ -1,5 +1,7 @@
 {
-    "seqCategoria": "producto.\"categoria_Id_seq\"",
-    "seqMarca": "producto.\"marca_Id_seq\"",
-    "seqProducto": "producto.\"producto_Id_seq\""
+    "seqCategoria": "logistica.\"categoria_Id_seq\"",
+    "seqMarca": "logistica.\"marca_Id_seq\"",
+    "seqProducto": "logistica.\"producto_Id_seq\"",
+    "seqMarcaCategoria": "logistica.\"marca_categoria_Id_seq\"",
+    "seqProductoImagen": "logistica.\"producto_imagen_Id_seq\""
 }
