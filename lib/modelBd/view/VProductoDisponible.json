@@ -1,0 +1,3 @@
+{
+    "viewProductoDisponible": "select ip.* from ( SELECT i.\"CodEmpresa\", i.\"Empresa\", i.\"CodSede\", i.\"Sede\", i.\"CodAlmacen\", i.\"Almacen\", i.\"ProductoId\" , SUM(i.\"Factor\" * i.\"Cantidad\") as \"CantidadDisponible\" FROM logistica.inventario i where i.\"EstadoId\" = 1 and i.\"CodEstadoInventario\" = 1 group by i.\"CodEmpresa\", i.\"Empresa\", i.\"CodSede\", i.\"Sede\", i.\"CodAlmacen\", i.\"Almacen\", i.\"ProductoId\" ) ip "
+}
