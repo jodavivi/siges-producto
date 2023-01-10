@@ -4,5 +4,6 @@
     "seqProducto": "logistica.\"producto_Id_seq\"",
     "seqMarcaCategoria": "logistica.\"marca_categoria_Id_seq\"",
     "seqProductoImagen": "logistica.\"producto_imagen_Id_seq\"",
-    "seqProductoPrecio": "logistica.\"producto_precio_Id_seq\""
+    "seqProductoPrecio": "logistica.\"producto_precio_Id_seq\"",
+    "seqInventario" : "logistica.\"inventario_Id_seq\""
 }
